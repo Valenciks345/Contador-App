@@ -40,12 +40,6 @@ return (
         onLongPress={() => setCount(0)}
         />
 
-        <FAB
-        icon="remove"
-        style={styles.fabLeft}
-        onPress={restar}
-        onLongPress={() => setCount(0)}
-        />
 
     </View>
 )
